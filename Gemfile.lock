@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/jipiboily/singer
+  revision: 689cca3b382b333be2d12c462b76e239c170b1f7
+  specs:
+    singer (0.0.1)
+      sinatra
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -57,6 +64,8 @@ GEM
     rack (1.4.1)
     rack-cache (1.2)
       rack (>= 0.4)
+    rack-protection (1.3.2)
+      rack
     rack-ssl (1.3.2)
       rack
     rack-test (0.6.2)
@@ -84,6 +93,10 @@ GEM
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
+    sinatra (1.3.3)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -108,5 +121,6 @@ DEPENDENCIES
   jquery-rails
   rails (= 3.2.9)
   sass-rails (~> 3.2.3)
+  singer!
   sqlite3
   uglifier (>= 1.0.3)
